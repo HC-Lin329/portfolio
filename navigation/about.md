@@ -104,9 +104,11 @@ Here is what I did at those places
 - Student at Oak Valley Middle School.
 - Currently a sophomore in Del Norte High School.
 
-### Culture, Family, and Fun
+### Hobbies
 
-Everything for me, as for many others, revolves around family and faith.
+I enjoy watching anime, playing video games, and reading manga and light novels.
+
+The rest of the page are work in progress.
 
 - My mother told me that I was Danish, English. and Irish, here is my researched [family tree]({{site.baseurl}}/images/about/familytree.png)
 - My family is pretty big as I have been married twice, my 1st wife passed away.  We have had 5 kids, 4 adopted by me, 1 biological.  Plus, there are three grandkids.  My name to my grandkids is Abuilito.
