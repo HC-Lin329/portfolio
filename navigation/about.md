@@ -97,7 +97,7 @@ Flags are made using Wikipedia images
 
 ### Journey through Life
 
-Here is what I did at those places
+Here is what I did at those places. xxxx
 
 - Student at an elementary school in Taiwan until 4th grade
 - Student at Montery Ridge Elementary School
