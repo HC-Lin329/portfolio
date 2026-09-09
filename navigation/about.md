@@ -7,7 +7,7 @@ comments: true
 
 ## As a conversation Starter
 
-Here are some places I have lived. xxx
+Here are some places I have lived.
 
 <comment>
 Flags are made using Wikipedia images
@@ -97,7 +97,7 @@ Flags are made using Wikipedia images
 
 ### Journey through Life
 
-Here is what I did at those places. xxxx
+Here is what I did at those places.
 
 - Student at an elementary school in Taiwan until 4th grade
 - Student at Montery Ridge Elementary School
