@@ -115,5 +115,5 @@ The rest of the page are work in progress.
 Gallery of Pics, scroll to the right for more ...
 </comment>
 <div class="image-gallery">
-  <img src="{{site.baseurl}}/images/about/missionary.jpg" alt="Image 1">
+  <img src="{{site.baseurl}}/images/about/cs2.jpg" alt="Image 1">
 </div>
