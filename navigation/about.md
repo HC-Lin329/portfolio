@@ -116,4 +116,5 @@ Gallery of Pics, scroll to the right for more ...
 </comment>
 <div class="image-gallery">
   <img src="{{site.baseurl}}/images/about/cs2.jpg" alt="Image 1">
+  <img src="{{site.baseurl}}/images/about/wfm.jpg" alt="Image 2">
 </div>
