@@ -1,0 +1,6 @@
+let myHTML = [
+  '<div class="ocs__links">',
+  '  <button class="ocs__btn fill accent">Submit Daily Reflection</button>',
+  '  <a class="ocs__btn outline" href="/journal">Save Draft Journal</a>',
+  '</div>'
+].join('');
