@@ -1,0 +1,14 @@
+let myHTML = [
+  '<div class="ocs__grid ocs__grid--standard cols-4">',
+  '  <div class="ocs__grid-cell ocs__grid-cell--header">Temperature Trial (°C)</div>',
+  '  <div class="ocs__grid-cell">Beaker 1: 22.4</div>',
+  '  <div class="ocs__grid-cell">Beaker 2: 22.9</div>',
+  '  <div class="ocs__grid-cell ocs__grid-cell--accent">Beaker 3: 31.6</div>',
+  '</div>',
+  '<div class="ocs__grid ocs__grid--calculator">',
+  '  <div class="ocs__grid-cell">7</div>',
+  '  <div class="ocs__grid-cell">8</div>',
+  '  <div class="ocs__grid-cell">9</div>',
+  '  <div class="ocs__grid-cell ocs__grid-cell--accent">Avg</div>',
+  '</div>'
+].join('');
