@@ -1,0 +1,16 @@
+game_title = "UESL Star Trail"
+reduced_motion = True
+
+# Store level stars in a list instead of making separate variables for each
+level_stars = [12, 18, 10]
+
+print(game_title)
+print("Reduced Motion:", reduced_motion)
+print("Initial Levels:", level_stars)
+print("Total Levels:", len(level_stars))
+print("Initial Total Stars:", sum(level_stars))
+
+# Add a new level score
+level_stars.append(15)
+print("Updated Levels:", level_stars)
+print("New Total Stars:", sum(level_stars))
