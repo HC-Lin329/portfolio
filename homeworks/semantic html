@@ -1,1 +1,13 @@
-
+%%html
+<div class="ocs_card">
+  <h2 class="ocs_section-title">How to Pat a Cat</h2>
+  <h3 class="ocs_section-title">Have you ever wanted to...</h3>
+  <p>pat a cat? Well good for you we will give step by step instructions on how to pat a cat!</p>
+  <p><strong>How to pat a cat:</strong></p>
+  <ol>
+    <li>put out your hand</li>
+    <li>touch the cat</li>
+    <li>move your hand back and forth</li>
+  </ol>
+  <h3 class="ocs_section-title">Congrats! You pat a cat :D</h3>
+</div>
