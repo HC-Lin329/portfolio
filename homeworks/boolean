@@ -1,1 +1,61 @@
+# Homework Hack - SFI Backend Validator
+existing_spec_numbers = ["1.1", "2.1"]
+valid_categories = ["Auto Racing", "Drag Racing"]
 
+test_records = [
+    {
+        "product_name": "Multiple Disc Clutch Assemblies",
+        "category": "Auto Racing",
+        "spec_number": "1.2",
+        "effective_date": "Feb. 9, 2006"
+    },
+    {
+        "product_name": "Replacement Flywheels",
+        "category": "Street Car",
+        "spec_number": "3.1",
+        "effective_date": "Jan. 1, 2026"
+    },
+    {
+        "product_name": "Existing Flywheel Record",
+        "category": "Drag Racing",
+        "spec_number": "1.1",
+        "effective_date": "Jan. 1, 2026"
+    }
+]
+
+def validate_record(record, existing_specs, valid_cats):
+    """
+    Validates an SFI automotive record based on specific criteria.
+    Returns a tuple: (is_valid (bool), reason (str))
+    """
+    # 1. Non-empty product name
+    if not record.get("product_name") or not record["product_name"].strip():
+        return False, "Product name is empty."
+    
+    # 2. Accepted racing category
+    if record.get("category") not in valid_cats:
+        return False, f"Invalid category: '{record.get('category')}'."
+    
+    # 3. Non-empty spec number
+    if not record.get("spec_number") or not str(record["spec_number"]).strip():
+        return False, "Spec number is empty."
+    
+    # 4. Effective date
+    if not record.get("effective_date") or not str(record["effective_date"]).strip():
+        return False, "Effective date is missing."
+    
+    # 5. Spec number does not already exist in the backend
+    if record.get("spec_number") in existing_specs:
+        return False, f"Spec number '{record.get('spec_number')}' already exists in backend."
+    
+    return True, "Record is valid."
+
+# Run tests and clearly print the status of each candidate record
+print("--- SFI Record Validation Results ---")
+for index, record in enumerate(test_records, start=1):
+    is_valid, reason = validate_record(record, existing_spec_numbers, valid_categories)
+    status = "ACCEPTED" if is_valid else "REJECTED"
+    
+    print(f"\nRecord {index}: {record.get('product_name')}")
+    print(f"  Status: {status}")
+    print(f"  Details: {reason}")
